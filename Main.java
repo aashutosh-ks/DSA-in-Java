@@ -15,6 +15,6 @@ public class Main {
 
         //System.out.println(stack);
         //System.out.println(stack.peek());
-        System.out.println(stack.search("BGMI"));
+        System.out.println(stack.search("Cricket"));
     }
 }
