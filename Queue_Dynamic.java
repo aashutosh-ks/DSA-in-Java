@@ -1,8 +1,10 @@
 import java.util.*;
 
+import javax.swing.plaf.synth.SynthToggleButtonUI;
+
 public class Queue_Dynamic 
 {
-    public static void main(System[] args)
+    public static void main(String[] args)
     {
         Queue<String> Queue = new LinkedList<>();
             System.out.println("Enter no. of elements in queue : ");
@@ -12,8 +14,10 @@ public class Queue_Dynamic
         for(int i = 0; i <n; i++)
         {
             System.out.println("Enter Element : ");
-            sc.nextLine();
+            String name = sc.nextLine();
+            Queue.offer(name);
         }
+        System.out.println(Queue);
 
     }   
 }
