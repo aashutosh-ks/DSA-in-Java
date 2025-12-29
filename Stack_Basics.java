@@ -1,7 +1,9 @@
 import java.util.Stack;
 
-public class Stack_Basics {
-    public static void main(String[] args) {
+public class Stack_Basics 
+{
+    public static void main(String[] args) 
+    {
 
         Stack<String> stack = new Stack<String>();
 
@@ -14,7 +16,7 @@ public class Stack_Basics {
         //String myFavGame = stack.pop();
 
         //System.out.println(stack);
-        //System.out.println(stack.peek());
+        //System.out.println(stack.isEmpty());
         System.out.println(stack.search("Cricket"));
     }
 }
