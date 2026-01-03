@@ -12,11 +12,13 @@ public class Area_and_Parameter
     }
     public static void main (String[] args)
     {
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter Length : ");
-        Scanner Len = new Scanner(System.in);
+        long Len = sc.nextLong();
         System.out.println("Enter Bredth : ");
-        Scanner Bre = new Scanner(System.in);
+        long Bre = sc.nextLong();
         
+
 
 
 
