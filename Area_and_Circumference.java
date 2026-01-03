@@ -1,20 +1,20 @@
 import java.util.*;
 public class Area_and_Circumference 
 {
-    static long Circumference(long r)
+    static double Circumference(double r)
     {
-        return 2*22/7*r;
+        return 2*3.14*r;
     }
-    static long Area(long r)
+    static double Area(double r)
     {
-        return 22/7*r*r;
+        return 3.14*r*r;
     }
 
     public static void main(String[] args)
     {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Radius : ");
-        long r = sc.nextLong();
+        double r = sc.nextDouble();
 
         System.out.println("Circumference is : " + Circumference(r));
         System.out.println("Area is : " +Area(r));
