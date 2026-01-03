@@ -15,9 +15,13 @@ public class Area_and_Circumference
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Radius : ");
         double r = sc.nextDouble();
+        double Area = Area(r);
+        double Circumference = Circumference(r);
 
-        System.out.println("Circumference is : " + Circumference(r));
-        System.out.println("Area is : " +Area(r));
+        int result_Area = (int) Area;
+        int result_Circumference = (int) Circumference;
+        System.out.println("Circumference is : " + result_Circumference);
+        System.out.println("Area is : " +result_Area);
     }
     
 }
