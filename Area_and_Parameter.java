@@ -1,6 +1,7 @@
 import java.util.*;
 public class Area_and_Parameter 
 {
+    
     public static void main (String[] args)
     {
         System.out.println("Enter Length : ");
