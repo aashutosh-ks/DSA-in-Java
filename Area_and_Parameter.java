@@ -1,4 +1,6 @@
 import java.util.*;
+
+import javax.swing.plaf.synth.SynthTreeUI;
 public class Area_and_Parameter 
 {
     static long area(long Len, long Bre)
@@ -6,7 +8,7 @@ public class Area_and_Parameter
         return Len*Bre;
     }
 
-    static long Parameter(long Len, long Bre)
+    static long Perimeter(long Len, long Bre)
     {
         return 2*(Len+Bre);
     }
@@ -17,7 +19,10 @@ public class Area_and_Parameter
         long Len = sc.nextLong();
         System.out.println("Enter Bredth : ");
         long Bre = sc.nextLong();
-        
+
+        System.out.println("Area is " + area(Len, Bre));
+        System.out.println("Perimeter = " + Perimeter(Len, Bre));
+
 
 
 
