@@ -4,7 +4,9 @@ public class Swap_Two_numbers
    static int[] number(int a, int b)
    {
         int[] Number=new int[5];
-        
+        a = a+b;
+        b= a-b;
+        a=a-b;
         Number[0]=a;
         Number[1]=b;
         return Number ;
@@ -22,6 +24,6 @@ public class Swap_Two_numbers
 
     int[] Display= number(a,b);
 
-    System.out.println("Swapped number is " +Display[1] + "  " + Display[0]);
+    System.out.println("Swapped number is " +Display[0] + "  " + Display[1]);
    }
 }
