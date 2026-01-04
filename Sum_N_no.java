@@ -19,10 +19,11 @@ public class Sum_N_no {
         int[] Store = new int[count];
         for(int i =0; i<count; i++)
         {
-            System.out.println("Enter "+ (i+1) +"Number : ");
+            System.out.println("Enter "+ (i+1) +"st Number : ");
             Store[i]=sc.nextInt();
             sc.nextLine();
         }
+        System.out.println("Sum = "+Addition(Store));
     }
     
 }
