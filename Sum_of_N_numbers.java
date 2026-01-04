@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Sum_of_N_Numbers
+public class Sum_of_N_numbers
 {
     static int Addition(int[] Store)
 
