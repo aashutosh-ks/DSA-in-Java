@@ -19,7 +19,7 @@ public class Sum_N_no {
         int[] Store = new int[count];
         for(int i =0; i<count; i++)
         {
-            System.out.println("Enter "+ (i+1) +"st Number : ");
+            System.out.println("Enter Number "+ (i+1) );
             Store[i]=sc.nextInt();
             sc.nextLine();
         }
