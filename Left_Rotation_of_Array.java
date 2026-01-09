@@ -11,7 +11,10 @@ public class Left_Rotation_of_Array
         {
             L[i] = L[i+s];
         }
-        System.out.println(Arrays.toString(L));
+        for(int i = 0; i < n; i++)
+        {
+            System.out.println(L[i] +" ");
+        }
         
     }
     public static void main(String[] args)
