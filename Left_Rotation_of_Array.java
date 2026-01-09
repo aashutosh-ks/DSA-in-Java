@@ -13,7 +13,7 @@ public class Left_Rotation_of_Array
         }
         for(int i = 0; i < n; i++)
         {
-            System.out.println(L[i] +" ");
+            System.out.print(L[i] +" ");
         }
         
     }
