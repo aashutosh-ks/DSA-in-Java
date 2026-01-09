@@ -1,15 +1,16 @@
 import java.util.*;
 public class Count_Monitor_Record_low
 {
-    static int Changes(int[] Rank, int n)
+    static int Changes(int[] Rank)
     {
         int Count = 10000;
         int Sum = 0;
-        for(int i = 0; i < n; i++)
+        for(int i = 0; i <Rank.length; i++)
         {
             if(Rank[i] < Count)
             {
                 Sum = Sum + 1;
+                break;
             }
         }
         return Sum;
@@ -23,6 +24,6 @@ public class Count_Monitor_Record_low
         {
             Rank[i]= sc.nextInt();
         }
-        System.out.println(Changes(Rank, n));
+        System.out.println(Changes(Rank));
     }
 }
