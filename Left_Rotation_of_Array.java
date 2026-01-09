@@ -19,6 +19,7 @@ public class Left_Rotation_of_Array
             }
         }
         System.out.println(L);
+        
     }
     public static void main(String[] args)
     {
@@ -30,6 +31,6 @@ public class Left_Rotation_of_Array
         {
             L[i] = sc.nextInt();
         }
-        Rotation(n, s, L);
+        
     }   
 }
