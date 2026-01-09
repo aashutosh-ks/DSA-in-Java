@@ -5,12 +5,9 @@ public class Left_Rotation_of_Array
     {
         for(int i = 0; i < s; i++)
         {
-            for(int j=n; j<L.length; j++)
-            {
-                L[j] = L[i];
-            }
+            L[n + i] = L[i];
         }
-        for(int i = 0; i < L.length; i++)
+        for(int i = 0; i < n; i++)
         {
             L[i] = L[i+s];
         }
