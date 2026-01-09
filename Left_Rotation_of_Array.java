@@ -11,13 +11,7 @@ public class Left_Rotation_of_Array
                 break;
             }
         }
-        for(int j = 0; j<s; j++)
-        {
-            for(int i = L.length; i < n; i++)
-            {
-                L[i]=L[j];
-            }
-        }
+        
         System.out.println(L);
     }
     public static void main(String[] args)
