@@ -10,7 +10,7 @@ public class Count_Monitor_Record_low
             if(Rank[i] < Count)
             {
                 Sum = Sum + 1;
-                break;
+                Count = Rank[i];
             }
         }
         return Sum;
