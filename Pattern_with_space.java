@@ -1,19 +1,19 @@
 import java.util.*;
-public class Reverse_Pattern_Printing 
+public class Pattern_with_space 
 {
     public static void Pattern(int n)
     {
-        for(int i = n; i > 0; i--)
+        for(int i = 0; i < n; i++)
         {
-            for(int j = i; j<n; j++)
-            {
-                System.out.print("*");
-            for (int k = 0; k<n; k++)
+            for(int j = 0; j < i; j++)
             {
                 System.out.print(" ");
             }
-            }
-            
+            for (int k = n; k>i; k--)
+                {
+                    System.out.print("*");
+                }
+                
             System.out.println();
         }
     }
